@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/image/pexels-thirdman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 20%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-container {
+  background: linear-gradient(#222121, gray);
+  padding: 5% 5% 5% 5%;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub-container .form-header {
+  text-align: center;
+}
+
+.sub-container .form-details {
+  display: grid;
+  position: relative;
+  margin-top: 10px;
+}
+
+.sub-container .form-details .date-of-birth {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+}
+
+.sub-container .form-details .date-of-birth p {
+  margin: 0 10px;
+  word-wrap: none;
+}
+
+.sub-container .form-details .address {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+}
+
+.sub-container .form-details .address p {
+  margin: 0 10px;
+}
+
+.sub-container .form-details input {
+  padding: 4px 10px;
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .sub-container .form-details {
+    grid-template-columns: 150px auto;
+  }
+}
+
+.sub-container .checkbox {
+  display: grid;
+}
+
+.sub-container .checkbox span {
+  margin-left: 10px;
+}
+
+@media (min-width: 480px) {
+  .sub-container .checkbox {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.sub-container button {
+  margin: 20px 50px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding: 5px 10px;
+  background-color: #2323be;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
